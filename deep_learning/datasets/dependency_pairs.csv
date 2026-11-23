@@ -1,0 +1,287 @@
+task_a_id,task_b_id,project_id,task_a_type,task_b_type,task_a_priority_enc,task_b_priority_enc,task_a_complexity_enc,task_b_complexity_enc,index_difference,priority_difference,same_type,same_category,has_dependency
+task_0019_006,task_0019_008,proj_0019,Backend API,Search Engine,3,1,2,0,2,2,0,1,1
+task_0035_005,task_0035_022,proj_0035,Database Migration,Data Quality,2,2,1,1,17,0,0,1,0
+task_0074_000,task_0074_003,proj_0074,Database Schema,Backend API,3,1,1,1,3,2,0,1,1
+task_0006_016,task_0006_022,proj_0006,API Deployment,Feature Engineering,0,0,1,1,6,0,0,1,0
+task_0010_008,task_0010_010,proj_0010,Authentication,Database Schema,2,2,0,1,2,0,0,1,1
+task_0012_006,task_0012_010,proj_0012,Testing,Documentation,2,0,1,2,4,2,0,1,0
+task_0010_001,task_0010_004,proj_0010,Backend API,Admin Dashboard,1,2,1,1,3,1,0,1,1
+task_0004_015,task_0004_026,proj_0004,Frontend UI,Payment Gateway,1,3,1,1,11,2,0,1,0
+task_0072_007,task_0072_008,proj_0072,Backend API,Frontend UI,3,2,1,2,1,1,0,1,1
+task_0030_032,task_0030_035,proj_0030,Data Mapping,Testing,2,2,1,1,3,0,0,1,0
+task_0052_013,task_0052_017,proj_0052,Data Warehouse,Index Optimization,1,2,1,0,4,1,0,1,0
+task_0042_002,task_0042_005,proj_0042,Database Schema,Search Engine,0,2,1,1,3,2,0,1,1
+task_0020_000,task_0020_004,proj_0020,Scaling Configuration,Backup Setup,2,2,2,2,4,0,0,1,0
+task_0019_005,task_0019_007,proj_0019,Database Schema,Backend API,0,1,1,2,2,1,0,1,1
+task_0004_013,task_0004_020,proj_0004,Frontend UI,Testing,2,2,1,1,7,0,0,1,0
+task_0022_005,task_0022_006,proj_0022,Alert Setup,Performance Tuning,0,1,0,1,1,1,0,1,0
+task_0033_008,task_0033_011,proj_0033,Authentication,Backend API,3,1,1,1,3,2,0,1,1
+task_0051_005,task_0051_008,proj_0051,API Integration,API Integration,1,2,1,1,3,1,1,1,0
+task_0018_012,task_0018_023,proj_0018,Documentation,Monitoring,0,2,0,0,11,2,0,1,0
+task_0042_001,task_0042_002,proj_0042,Authentication,Database Schema,1,0,0,1,1,1,0,1,1
+task_0072_003,task_0072_007,proj_0072,Authentication,Backend API,2,3,1,1,4,1,0,1,0
+task_0030_018,task_0030_026,proj_0030,Testing,Documentation,1,1,1,1,8,0,0,1,0
+task_0004_025,task_0004_026,proj_0004,Database Schema,Payment Gateway,1,3,2,1,1,2,0,1,1
+task_0039_005,task_0039_007,proj_0039,Authentication,Database Schema,2,3,1,1,2,1,0,1,1
+task_0042_007,task_0042_008,proj_0042,Database Schema,Backend API,2,1,2,1,1,1,0,1,1
+task_0014_014,task_0014_018,proj_0014,UI/UX Polish,UI/UX Polish,1,1,1,0,4,0,1,1,0
+task_0013_012,task_0013_019,proj_0013,Compliance Review,Vulnerability Fix,1,1,2,2,7,0,0,1,0
+task_0032_010,task_0032_011,proj_0032,Data Mapping,Testing,2,0,0,2,1,2,0,1,0
+task_0048_000,task_0048_011,proj_0048,Model Training,Model Evaluation,1,2,2,1,11,1,0,1,0
+task_0053_003,task_0053_004,proj_0053,Backend API,Testing,0,0,2,1,1,0,0,1,1
+task_0039_016,task_0039_018,proj_0039,Database Schema,Admin Dashboard,2,1,1,1,2,1,0,1,1
+task_0038_007,task_0038_010,proj_0038,Authentication,Payment Gateway,2,0,2,2,3,2,0,1,1
+task_0006_016,task_0006_023,proj_0006,API Deployment,Model Training,0,2,1,1,7,2,0,1,0
+task_0007_021,task_0007_022,proj_0007,App Store Submission,Push Notifications,1,2,0,1,1,1,0,1,0
+task_0044_007,task_0044_010,proj_0044,Backend API,Database Schema,2,0,2,1,3,2,0,1,1
+task_0031_010,task_0031_018,proj_0031,Data Warehouse,ETL Pipeline,0,1,1,2,8,1,0,1,0
+task_0032_032,task_0032_040,proj_0032,API Integration,Error Handling,0,0,1,0,8,0,0,1,0
+task_0005_023,task_0005_025,proj_0005,Offline Mode,API Integration,0,0,1,1,2,0,0,1,0
+task_0049_003,task_0049_014,proj_0049,CI/CD Pipeline,Scaling Configuration,3,1,1,1,11,2,0,1,0
+task_0010_001,task_0010_002,proj_0010,Backend API,Testing,1,1,1,2,1,0,0,1,1
+task_0004_038,task_0004_040,proj_0004,Backend API,Admin Dashboard,1,2,2,0,2,1,0,1,1
+task_0077_010,task_0077_016,proj_0077,API Integration,Testing,3,3,0,0,6,0,0,1,0
+task_0010_010,task_0010_011,proj_0010,Database Schema,Admin Dashboard,2,1,1,1,1,1,0,1,1
+task_0065_014,task_0065_028,proj_0065,Push Notifications,iOS Development,2,2,1,2,14,0,0,1,0
+task_0052_017,task_0052_023,proj_0052,Index Optimization,Data Quality,2,3,0,0,6,1,0,1,0
+task_0004_035,task_0004_036,proj_0004,Backend API,Backend API,2,3,0,1,1,1,1,1,1
+task_0041_031,task_0041_032,proj_0041,Database Migration,Index Optimization,1,2,2,0,1,1,0,1,0
+task_0037_006,task_0037_009,proj_0037,App Store Submission,Offline Mode,2,0,0,1,3,2,0,1,0
+task_0007_006,task_0007_026,proj_0007,Offline Mode,Offline Mode,3,1,0,0,20,2,1,1,0
+task_0004_038,task_0004_039,proj_0004,Backend API,Backend API,1,0,2,2,1,1,1,1,1
+task_0033_001,task_0033_003,proj_0033,Backend API,Backend API,0,3,2,0,2,3,1,1,1
+task_0041_020,task_0041_035,proj_0041,Analytics Dashboard,Database Migration,2,2,2,1,15,0,0,1,0
+task_0025_003,task_0025_007,proj_0025,Performance Tuning,Alert Setup,1,2,1,1,4,1,0,1,0
+task_0071_014,task_0071_022,proj_0071,Documentation,Model Evaluation,3,1,2,1,8,2,0,1,0
+task_0074_018,task_0074_020,proj_0074,Database Schema,Payment Gateway,2,2,1,2,2,0,0,1,1
+task_0004_016,task_0004_018,proj_0004,Backend API,Payment Gateway,3,1,1,1,2,2,0,1,1
+task_0074_018,task_0074_019,proj_0074,Database Schema,Testing,2,0,1,1,1,2,0,1,1
+task_0010_016,task_0010_017,proj_0010,Database Schema,Payment Gateway,1,1,0,2,1,0,0,1,1
+task_0055_003,task_0055_015,proj_0055,KPI Definition,Dashboard Design,1,1,0,1,12,0,0,1,0
+task_0038_009,task_0038_010,proj_0038,Authentication,Payment Gateway,2,0,1,2,1,2,0,1,1
+task_0018_005,task_0018_022,proj_0018,Model Evaluation,Data Collection,1,2,1,1,17,1,0,1,0
+task_0066_008,task_0066_019,proj_0066,Offline Mode,iOS Development,2,2,0,2,11,0,0,1,0
+task_0035_020,task_0035_033,proj_0035,Index Optimization,Data Warehouse,0,2,1,0,13,2,0,1,0
+task_0004_006,task_0004_009,proj_0004,Backend API,Frontend UI,3,2,2,2,3,1,0,1,1
+task_0004_029,task_0004_032,proj_0004,Backend API,Payment Gateway,1,3,0,2,3,2,0,1,1
+task_0014_018,task_0014_043,proj_0014,UI/UX Polish,App Store Submission,1,1,0,2,25,0,0,1,0
+task_0049_000,task_0049_015,proj_0049,Scaling Configuration,Scaling Configuration,0,1,2,1,15,1,1,1,0
+task_0007_002,task_0007_032,proj_0007,App Store Submission,Android Development,1,3,0,0,30,2,0,1,0
+task_0072_009,task_0072_011,proj_0072,Database Schema,Authentication,1,0,1,1,2,1,0,1,1
+task_0053_000,task_0053_001,proj_0053,Authentication,Backend API,0,3,1,1,1,3,0,1,1
+task_0072_000,task_0072_014,proj_0072,Database Schema,Search Engine,1,0,1,1,14,1,0,1,0
+task_0074_007,task_0074_008,proj_0074,Authentication,Frontend UI,2,0,1,1,1,2,0,1,1
+task_0004_025,task_0004_027,proj_0004,Database Schema,Testing,1,2,2,2,2,1,0,1,1
+task_0072_000,task_0072_002,proj_0072,Database Schema,Backend API,1,1,1,0,2,0,0,1,1
+task_0074_012,task_0074_014,proj_0074,Backend API,Authentication,1,0,2,2,2,1,0,1,1
+task_0007_007,task_0007_034,proj_0007,UI/UX Polish,API Integration,2,2,2,2,27,0,0,1,0
+task_0056_019,task_0056_022,proj_0056,Performance Tuning,Performance Tuning,1,3,1,1,3,2,1,1,0
+task_0072_003,task_0072_005,proj_0072,Authentication,Frontend UI,2,1,1,0,2,1,0,1,1
+task_0024_010,task_0024_025,proj_0024,Scaling Configuration,Scaling Configuration,1,2,0,0,15,1,1,1,0
+task_0038_004,task_0038_006,proj_0038,Database Schema,Database Schema,2,3,1,1,2,1,1,1,1
+task_0038_002,task_0038_004,proj_0038,Backend API,Database Schema,1,2,0,1,2,1,0,1,1
+task_0010_006,task_0010_008,proj_0010,Backend API,Authentication,1,2,1,0,2,1,0,1,1
+task_0062_009,task_0062_019,proj_0062,Backup Setup,CI/CD Pipeline,2,2,1,2,10,0,0,1,0
+task_0019_005,task_0019_006,proj_0019,Database Schema,Backend API,0,3,1,2,1,3,0,1,1
+task_0014_005,task_0014_039,proj_0014,Push Notifications,Offline Mode,2,1,1,0,34,1,0,1,0
+task_0000_002,task_0000_003,proj_0000,Scaling Configuration,Backup Setup,2,1,0,1,1,1,0,1,0
+task_0010_008,task_0010_011,proj_0010,Authentication,Admin Dashboard,2,1,0,1,3,1,0,1,1
+task_0062_007,task_0062_038,proj_0062,Backup Setup,CI/CD Pipeline,2,2,0,2,31,0,0,1,0
+task_0070_010,task_0070_037,proj_0070,Index Optimization,Index Optimization,1,3,1,1,27,2,1,1,0
+task_0074_021,task_0074_022,proj_0074,Backend API,Testing,2,2,1,2,1,0,0,1,1
+task_0038_011,task_0038_013,proj_0038,Backend API,Admin Dashboard,2,2,1,2,2,0,0,1,1
+task_0004_012,task_0004_013,proj_0004,Database Schema,Frontend UI,1,2,1,1,1,1,0,1,1
+task_0052_022,task_0052_027,proj_0052,Report Generation,Report Generation,2,2,2,0,5,0,1,1,0
+task_0054_001,task_0054_017,proj_0054,KPI Definition,Visualization,0,2,2,1,16,2,0,1,0
+task_0047_009,task_0047_014,proj_0047,Testing,API Integration,0,1,1,1,5,1,0,1,0
+task_0006_023,task_0006_027,proj_0006,Model Training,Data Collection,2,2,1,0,4,0,0,1,0
+task_0035_014,task_0035_032,proj_0035,Report Generation,Database Migration,1,3,1,1,18,2,0,1,0
+task_0040_000,task_0040_010,proj_0040,Error Handling,Authentication Setup,2,1,1,1,10,1,0,1,0
+task_0036_008,task_0036_026,proj_0036,Push Notifications,App Store Submission,2,2,1,1,18,0,0,1,0
+task_0005_005,task_0005_012,proj_0005,Push Notifications,Offline Mode,1,2,0,1,7,1,0,1,0
+task_0039_017,task_0039_018,proj_0039,Database Schema,Admin Dashboard,0,1,2,1,1,1,0,1,1
+task_0074_027,task_0074_030,proj_0074,Database Schema,Payment Gateway,1,2,1,0,3,1,0,1,1
+task_0041_014,task_0041_029,proj_0041,Analytics Dashboard,Database Migration,3,2,2,2,15,1,0,1,0
+task_0019_001,task_0019_003,proj_0019,Backend API,Search Engine,0,2,1,0,2,2,0,1,1
+task_0038_008,task_0038_009,proj_0038,Authentication,Authentication,1,2,1,1,1,1,1,1,1
+task_0064_008,task_0064_013,proj_0064,Documentation,Testing,2,1,1,1,5,1,0,1,0
+task_0044_012,task_0044_013,proj_0044,Testing,Search Engine,1,2,1,0,1,1,0,1,0
+task_0010_006,task_0010_009,proj_0010,Backend API,Payment Gateway,1,0,1,1,3,1,0,1,1
+task_0072_007,task_0072_009,proj_0072,Backend API,Database Schema,3,1,1,1,2,2,0,1,1
+task_0066_029,task_0066_030,proj_0066,UI/UX Polish,Offline Mode,1,2,1,2,1,1,0,1,0
+task_0020_002,task_0020_011,proj_0020,Container Orchestration,Scaling Configuration,1,1,2,2,9,0,0,1,0
+task_0074_002,task_0074_003,proj_0074,Authentication,Backend API,0,1,1,1,1,1,0,1,1
+task_0074_003,task_0074_005,proj_0074,Backend API,Database Schema,1,1,1,1,2,0,0,1,1
+task_0053_001,task_0053_002,proj_0053,Backend API,Payment Gateway,3,1,1,0,1,2,0,1,1
+task_0031_009,task_0031_019,proj_0031,Index Optimization,Index Optimization,2,1,2,0,10,1,1,1,0
+task_0053_003,task_0053_005,proj_0053,Backend API,Testing,0,0,2,0,2,0,0,1,1
+task_0015_009,task_0015_010,proj_0015,Deployment,Error Handling,3,2,1,1,1,1,0,1,0
+task_0072_002,task_0072_005,proj_0072,Backend API,Frontend UI,1,1,0,0,3,0,0,1,1
+task_0000_005,task_0000_006,proj_0000,CI/CD Pipeline,Backup Setup,3,2,1,1,1,1,0,1,0
+task_0033_006,task_0033_007,proj_0033,Database Schema,Frontend UI,1,1,1,2,1,0,0,1,1
+task_0004_023,task_0004_025,proj_0004,Backend API,Database Schema,3,1,2,2,2,2,0,1,1
+task_0053_001,task_0053_004,proj_0053,Backend API,Testing,3,0,1,1,3,3,0,1,1
+task_0032_032,task_0032_039,proj_0032,API Integration,Data Mapping,0,2,1,0,7,2,0,1,0
+task_0026_006,task_0026_011,proj_0026,Model Evaluation,Monitoring,1,1,1,2,5,0,0,1,0
+task_0075_002,task_0075_003,proj_0075,Dashboard Design,Performance Tuning,2,0,1,0,1,2,0,1,0
+task_0074_014,task_0074_016,proj_0074,Authentication,Authentication,0,1,2,0,2,1,1,1,1
+task_0044_011,task_0044_014,proj_0044,Backend API,Search Engine,3,1,1,1,3,2,0,1,1
+task_0074_002,task_0074_005,proj_0074,Authentication,Database Schema,0,1,1,1,3,1,0,1,1
+task_0074_010,task_0074_012,proj_0074,Database Schema,Backend API,1,1,1,2,2,0,0,1,1
+task_0005_016,task_0005_031,proj_0005,App Store Submission,Android Development,1,1,1,2,15,0,0,1,0
+task_0004_037,task_0004_039,proj_0004,Authentication,Backend API,3,0,1,2,2,3,0,1,1
+task_0039_000,task_0039_003,proj_0039,Backend API,Frontend UI,2,0,2,1,3,2,0,1,1
+task_0044_006,task_0044_009,proj_0044,Backend API,Admin Dashboard,1,1,2,1,3,0,0,1,1
+task_0004_013,task_0004_030,proj_0004,Frontend UI,Testing,2,2,1,1,17,0,0,1,0
+task_0035_007,task_0035_022,proj_0035,Analytics Dashboard,Data Quality,1,2,2,1,15,1,0,1,0
+task_0019_005,task_0019_008,proj_0019,Database Schema,Search Engine,0,1,1,0,3,1,0,1,1
+task_0046_030,task_0046_034,proj_0046,API Integration,UI/UX Polish,0,1,1,1,4,1,0,1,0
+task_0065_018,task_0065_028,proj_0065,Push Notifications,iOS Development,2,2,0,2,10,0,0,1,0
+task_0043_002,task_0043_024,proj_0043,Dashboard Design,Alert Setup,1,1,0,2,22,0,0,1,0
+task_0024_003,task_0024_026,proj_0024,Scaling Configuration,CI/CD Pipeline,0,2,2,0,23,2,0,1,0
+task_0038_005,task_0038_006,proj_0038,Database Schema,Database Schema,3,3,2,1,1,0,1,1,1
+task_0074_014,task_0074_015,proj_0074,Authentication,Testing,0,1,2,0,1,1,0,1,1
+task_0059_008,task_0059_014,proj_0059,Dashboard Design,Alert Setup,0,3,2,0,6,3,0,1,0
+task_0044_011,task_0044_013,proj_0044,Backend API,Search Engine,3,2,1,0,2,1,0,1,1
+task_0046_020,task_0046_038,proj_0046,UI/UX Polish,iOS Development,1,2,2,2,18,1,0,1,0
+task_0006_031,task_0006_032,proj_0006,Model Evaluation,Monitoring,2,0,1,2,1,2,0,1,0
+task_0034_005,task_0034_026,proj_0034,Alert Setup,Dashboard Design,1,2,0,1,21,1,0,1,0
+task_0019_007,task_0019_009,proj_0019,Backend API,Admin Dashboard,1,2,2,2,2,1,0,1,1
+task_0010_016,task_0010_018,proj_0010,Database Schema,Database Schema,1,2,0,1,2,1,1,1,1
+task_0010_010,task_0010_012,proj_0010,Database Schema,Testing,2,2,1,1,2,0,0,1,1
+task_0044_002,task_0044_004,proj_0044,Database Schema,Testing,1,2,1,1,2,1,0,1,1
+task_0071_004,task_0071_016,proj_0071,Model Training,API Deployment,0,2,1,1,12,2,0,1,0
+task_0042_007,task_0042_009,proj_0042,Database Schema,Testing,2,1,2,1,2,1,0,1,1
+task_0077_008,task_0077_016,proj_0077,Testing,Testing,3,3,2,0,8,0,1,1,0
+task_0004_012,task_0004_014,proj_0004,Database Schema,Frontend UI,1,2,1,1,2,1,0,1,1
+task_0053_009,task_0053_010,proj_0053,Database Schema,Payment Gateway,1,1,0,0,1,0,0,1,1
+task_0018_019,task_0018_026,proj_0018,Model Training,API Deployment,1,1,0,2,7,0,0,1,0
+task_0008_006,task_0008_029,proj_0008,Documentation,Testing,1,2,1,2,23,1,0,1,0
+task_0052_002,task_0052_014,proj_0052,Data Warehouse,Data Quality,1,2,0,1,12,1,0,1,0
+task_0018_012,task_0018_022,proj_0018,Documentation,Data Collection,0,2,0,1,10,2,0,1,0
+task_0074_027,task_0074_028,proj_0074,Database Schema,Admin Dashboard,1,2,1,0,1,1,0,1,1
+task_0007_008,task_0007_043,proj_0007,Android Development,API Integration,1,1,0,2,35,0,0,1,0
+task_0004_006,task_0004_007,proj_0004,Backend API,Search Engine,3,1,2,1,1,2,0,1,1
+task_0014_003,task_0014_024,proj_0014,iOS Development,Offline Mode,2,3,0,2,21,1,0,1,0
+task_0060_000,task_0060_008,proj_0060,Backup Setup,Monitoring Setup,2,2,1,1,8,0,0,1,0
+task_0061_006,task_0061_011,proj_0061,Data Collection,Performance Tuning,1,2,1,1,5,1,0,1,0
+task_0004_038,task_0004_041,proj_0004,Backend API,Testing,1,0,2,0,3,1,0,1,1
+task_0004_029,task_0004_030,proj_0004,Backend API,Testing,1,2,0,1,1,1,0,1,1
+task_0021_004,task_0021_006,proj_0021,Security Hardening,Container Orchestration,1,2,1,2,2,1,0,1,0
+task_0026_003,task_0026_004,proj_0026,Documentation,API Deployment,1,2,2,0,1,1,0,1,0
+task_0062_033,task_0062_039,proj_0062,Scaling Configuration,CI/CD Pipeline,1,1,0,1,6,0,0,1,0
+task_0010_006,task_0010_007,proj_0010,Backend API,Payment Gateway,1,2,1,2,1,1,0,1,1
+task_0036_015,task_0036_033,proj_0036,Offline Mode,Push Notifications,2,2,1,2,18,0,0,1,0
+task_0039_000,task_0039_002,proj_0039,Backend API,Payment Gateway,2,1,2,0,2,1,0,1,1
+task_0072_011,task_0072_013,proj_0072,Authentication,Frontend UI,0,2,1,1,2,2,0,1,1
+task_0004_023,task_0004_026,proj_0004,Backend API,Payment Gateway,3,3,2,1,3,0,0,1,1
+task_0004_029,task_0004_031,proj_0004,Backend API,Testing,1,2,0,1,2,1,0,1,1
+task_0041_021,task_0041_031,proj_0041,Data Quality,Database Migration,0,1,1,2,10,1,0,1,0
+task_0029_013,task_0029_014,proj_0029,API Integration,Data Mapping,1,0,2,0,1,1,0,1,0
+task_0074_007,task_0074_010,proj_0074,Authentication,Database Schema,2,1,1,1,3,1,0,1,1
+task_0057_005,task_0057_007,proj_0057,Data Quality,Data Quality,1,1,1,0,2,0,1,1,0
+task_0033_001,task_0033_002,proj_0033,Backend API,Frontend UI,0,2,2,2,1,2,0,1,1
+task_0038_008,task_0038_010,proj_0038,Authentication,Payment Gateway,1,0,1,2,2,1,0,1,1
+task_0070_020,task_0070_028,proj_0070,Report Generation,Database Migration,1,1,1,1,8,0,0,1,0
+task_0071_005,task_0071_030,proj_0071,Model Evaluation,Data Collection,2,2,2,0,25,0,0,1,0
+task_0044_010,task_0044_013,proj_0044,Database Schema,Search Engine,0,2,1,0,3,2,0,1,1
+task_0039_008,task_0039_011,proj_0039,Backend API,Backend API,2,3,2,1,3,1,1,1,1
+task_0010_013,task_0010_014,proj_0010,Backend API,Payment Gateway,3,3,2,0,1,0,0,1,1
+task_0069_015,task_0069_019,proj_0069,Security Audit,Security Audit,1,2,1,1,4,1,1,1,0
+task_0014_038,task_0014_040,proj_0014,API Integration,iOS Development,2,2,2,1,2,0,0,1,0
+task_0018_012,task_0018_021,proj_0018,Documentation,Documentation,0,3,0,1,9,3,1,1,0
+task_0064_012,task_0064_015,proj_0064,Deployment,API Integration,2,1,0,2,3,1,0,1,0
+task_0066_018,task_0066_022,proj_0066,Offline Mode,Offline Mode,2,0,0,1,4,2,1,1,0
+task_0014_027,task_0014_032,proj_0014,UI/UX Polish,iOS Development,1,2,1,1,5,1,0,1,0
+task_0007_018,task_0007_042,proj_0007,API Integration,UI/UX Polish,0,0,1,2,24,0,0,1,0
+task_0066_018,task_0066_027,proj_0066,Offline Mode,App Store Submission,2,1,0,1,9,1,0,1,0
+task_0004_006,task_0004_008,proj_0004,Backend API,Backend API,3,1,2,1,2,2,1,1,0
+task_0004_036,task_0004_037,proj_0004,Backend API,Authentication,3,3,1,1,1,0,0,1,1
+task_0013_002,task_0013_019,proj_0013,SSL Setup,Vulnerability Fix,0,1,2,2,17,1,0,1,0
+task_0062_009,task_0062_027,proj_0062,Backup Setup,Scaling Configuration,2,2,1,0,18,0,0,1,0
+task_0014_008,task_0014_033,proj_0014,App Store Submission,App Store Submission,2,1,1,2,25,1,1,1,0
+task_0072_003,task_0072_004,proj_0072,Authentication,Search Engine,2,0,1,1,1,2,0,1,1
+task_0019_011,task_0019_015,proj_0019,Testing,Admin Dashboard,2,2,0,1,4,0,0,1,0
+task_0004_035,task_0004_038,proj_0004,Backend API,Backend API,2,1,0,2,3,1,1,1,1
+task_0042_008,task_0042_009,proj_0042,Backend API,Testing,1,1,1,1,1,0,0,1,1
+task_0003_000,task_0003_011,proj_0003,Android Development,UI/UX Polish,1,1,1,1,11,0,0,1,0
+task_0072_011,task_0072_012,proj_0072,Authentication,Frontend UI,0,0,1,0,1,0,0,1,1
+task_0004_024,task_0004_026,proj_0004,Backend API,Payment Gateway,2,3,1,1,2,1,0,1,1
+task_0030_014,task_0030_029,proj_0030,Documentation,Documentation,3,2,0,0,15,1,1,1,0
+task_0004_023,task_0004_024,proj_0004,Backend API,Backend API,3,2,2,1,1,1,1,1,1
+task_0052_022,task_0052_026,proj_0052,Report Generation,Database Migration,2,3,2,0,4,1,0,1,0
+task_0042_001,task_0042_003,proj_0042,Authentication,Admin Dashboard,1,3,0,0,2,2,0,1,1
+task_0010_005,task_0010_007,proj_0010,Backend API,Payment Gateway,1,2,0,2,2,1,0,1,1
+task_0002_009,task_0002_022,proj_0002,Index Optimization,Index Optimization,2,2,1,1,13,0,1,1,0
+task_0069_014,task_0069_025,proj_0069,Security Audit,Compliance Review,3,0,2,0,11,3,0,1,0
+task_0074_016,task_0074_017,proj_0074,Authentication,Payment Gateway,1,2,0,0,1,1,0,1,1
+task_0038_011,task_0038_012,proj_0038,Backend API,Admin Dashboard,2,1,1,0,1,1,0,1,1
+task_0057_001,task_0057_012,proj_0057,Database Migration,Database Migration,2,2,0,1,11,0,1,1,0
+task_0018_021,task_0018_026,proj_0018,Documentation,API Deployment,3,1,1,2,5,2,0,1,0
+task_0017_007,task_0017_008,proj_0017,UI/UX Polish,App Store Submission,2,2,1,0,1,0,0,1,0
+task_0072_002,task_0072_004,proj_0072,Backend API,Search Engine,1,0,0,1,2,1,0,1,1
+task_0042_006,task_0042_007,proj_0042,Authentication,Database Schema,3,2,1,2,1,1,0,1,1
+task_0069_010,task_0069_027,proj_0069,Security Audit,Penetration Testing,0,1,0,2,17,1,0,1,0
+task_0042_007,task_0042_010,proj_0042,Database Schema,Authentication,2,1,2,0,3,1,0,1,1
+task_0074_005,task_0074_006,proj_0074,Database Schema,Admin Dashboard,1,2,1,2,1,1,0,1,1
+task_0039_005,task_0039_008,proj_0039,Authentication,Backend API,2,2,1,2,3,0,0,1,1
+task_0074_001,task_0074_002,proj_0074,Database Schema,Authentication,2,0,0,1,1,2,0,1,1
+task_0042_006,task_0042_009,proj_0042,Authentication,Testing,3,1,1,1,3,2,0,1,1
+task_0074_010,task_0074_013,proj_0074,Database Schema,Admin Dashboard,1,2,1,0,3,1,0,1,1
+task_0035_017,task_0035_027,proj_0035,Data Warehouse,Analytics Dashboard,1,1,0,0,10,0,0,1,0
+task_0074_010,task_0074_011,proj_0074,Database Schema,Payment Gateway,1,1,1,0,1,0,0,1,1
+task_0047_005,task_0047_016,proj_0047,Testing,API Integration,1,3,1,0,11,2,0,1,0
+task_0072_018,task_0072_019,proj_0072,Authentication,Admin Dashboard,1,2,2,1,1,1,0,1,1
+task_0049_012,task_0049_016,proj_0049,Security Hardening,Container Orchestration,0,1,2,0,4,1,0,1,0
+task_0046_001,task_0046_027,proj_0046,API Integration,Push Notifications,2,3,0,2,26,1,0,1,0
+task_0062_005,task_0062_010,proj_0062,CI/CD Pipeline,Monitoring Setup,2,0,1,1,5,2,0,1,0
+task_0053_000,task_0053_003,proj_0053,Authentication,Backend API,0,0,1,2,3,0,0,1,1
+task_0029_000,task_0029_004,proj_0029,Error Handling,Documentation,1,1,1,2,4,0,0,1,0
+task_0016_013,task_0016_017,proj_0016,Performance Tuning,Alert Setup,2,2,0,0,4,0,0,1,0
+task_0070_005,task_0070_011,proj_0070,Database Migration,Analytics Dashboard,2,2,0,1,6,0,0,1,0
+task_0054_000,task_0054_009,proj_0054,KPI Definition,Visualization,1,2,1,1,9,1,0,1,0
+task_0004_008,task_0004_011,proj_0004,Backend API,Admin Dashboard,1,3,1,0,3,2,0,1,1
+task_0033_006,task_0033_008,proj_0033,Database Schema,Authentication,1,3,1,1,2,2,0,1,1
+task_0050_008,task_0050_020,proj_0050,CI/CD Pipeline,Backup Setup,1,2,1,1,12,1,0,1,0
+task_0008_007,task_0008_037,proj_0008,Testing,Data Mapping,1,2,0,1,30,1,0,1,0
+task_0036_003,task_0036_023,proj_0036,API Integration,Android Development,0,2,1,2,20,2,0,1,0
+task_0033_006,task_0033_009,proj_0033,Database Schema,Payment Gateway,1,1,1,1,3,0,0,1,1
+task_0053_001,task_0053_003,proj_0053,Backend API,Backend API,3,0,1,2,2,3,1,1,1
+task_0074_000,task_0074_002,proj_0074,Database Schema,Authentication,3,0,1,1,2,3,0,1,1
+task_0003_001,task_0003_011,proj_0003,App Store Submission,UI/UX Polish,0,1,1,1,10,1,0,1,0
+task_0074_007,task_0074_009,proj_0074,Authentication,Search Engine,2,2,1,2,2,0,0,1,1
+task_0038_011,task_0038_014,proj_0038,Backend API,Frontend UI,2,1,1,2,3,1,0,1,1
+task_0066_017,task_0066_022,proj_0066,App Store Submission,Offline Mode,2,0,1,1,5,2,0,1,0
+task_0039_012,task_0039_014,proj_0039,Backend API,Admin Dashboard,0,2,1,1,2,2,0,1,1
+task_0071_008,task_0071_026,proj_0071,Feature Engineering,Feature Engineering,3,0,1,1,18,3,1,1,0
+task_0024_010,task_0024_021,proj_0024,Scaling Configuration,Security Hardening,1,0,0,2,11,1,0,1,0
+task_0038_004,task_0038_007,proj_0038,Database Schema,Authentication,2,2,1,2,3,0,0,1,1
+task_0019_007,task_0019_008,proj_0019,Backend API,Search Engine,1,1,2,0,1,0,0,1,1
+task_0019_002,task_0019_004,proj_0019,Database Schema,Frontend UI,1,2,1,2,2,1,0,1,1
+task_0072_017,task_0072_019,proj_0072,Authentication,Admin Dashboard,2,2,1,1,2,0,0,1,1
+task_0044_007,task_0044_008,proj_0044,Backend API,Payment Gateway,2,2,2,1,1,0,0,1,1
+task_0033_010,task_0033_011,proj_0033,Database Schema,Backend API,2,1,2,1,1,1,0,1,1
+task_0004_008,task_0004_009,proj_0004,Backend API,Frontend UI,1,2,1,2,1,1,0,1,1
+task_0074_003,task_0074_006,proj_0074,Backend API,Admin Dashboard,1,2,1,2,3,1,0,1,1
+task_0039_011,task_0039_014,proj_0039,Backend API,Admin Dashboard,3,2,1,1,3,1,0,1,1
+task_0004_024,task_0004_025,proj_0004,Backend API,Database Schema,2,1,1,2,1,1,0,1,1
+task_0004_036,task_0004_038,proj_0004,Backend API,Backend API,3,1,1,2,2,2,1,1,1
+task_0039_016,task_0039_017,proj_0039,Database Schema,Database Schema,2,0,1,2,1,2,1,1,1
+task_0053_000,task_0053_002,proj_0053,Authentication,Payment Gateway,0,1,1,0,2,1,0,1,1
+task_0053_003,task_0053_006,proj_0053,Backend API,Payment Gateway,0,2,2,2,3,2,0,1,1
+task_0038_002,task_0038_005,proj_0038,Backend API,Database Schema,1,3,0,2,3,2,0,1,1
+task_0007_003,task_0007_011,proj_0007,App Store Submission,API Integration,2,3,2,1,8,1,0,1,0
+task_0066_018,task_0066_019,proj_0066,Offline Mode,iOS Development,2,2,0,2,1,0,0,1,0
+task_0008_023,task_0008_025,proj_0008,Data Mapping,Data Mapping,1,3,1,1,2,2,1,1,0
+task_0031_002,task_0031_013,proj_0031,Database Migration,Data Warehouse,0,0,1,2,11,0,0,1,0
+task_0074_012,task_0074_013,proj_0074,Backend API,Admin Dashboard,1,2,2,0,1,1,0,1,1
+task_0019_006,task_0019_009,proj_0019,Backend API,Admin Dashboard,3,2,2,2,3,1,0,1,1
+task_0039_008,task_0039_009,proj_0039,Backend API,Search Engine,2,2,2,1,1,0,0,1,1
+task_0002_001,task_0002_007,proj_0002,ETL Pipeline,Index Optimization,1,2,2,2,6,1,0,1,0
+task_0044_010,task_0044_012,proj_0044,Database Schema,Testing,0,1,1,1,2,1,0,1,1
+task_0044_006,task_0044_007,proj_0044,Backend API,Backend API,1,2,2,2,1,1,1,1,1
+task_0061_009,task_0061_014,proj_0061,Visualization,Data Collection,0,3,0,2,5,3,0,1,0
+task_0006_021,task_0006_027,proj_0006,Model Evaluation,Data Collection,0,2,1,0,6,2,0,1,0
+task_0072_009,task_0072_010,proj_0072,Database Schema,Search Engine,1,2,1,1,1,1,0,1,1
+task_0070_010,task_0070_018,proj_0070,Index Optimization,Data Quality,1,1,1,1,8,0,0,1,0
+task_0074_005,task_0074_008,proj_0074,Database Schema,Frontend UI,1,0,1,1,3,1,0,1,1
