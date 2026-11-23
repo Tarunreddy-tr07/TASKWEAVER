@@ -1,6 +1,8 @@
 # TASKWEAVER REST API Reference 📡
 
-Base URL: `http://localhost:8000/api`  
+Production API: `https://taskweaver-backend-2026.onrender.com/api`
+
+Local API: `http://localhost:8000/api`
 Interactive OpenAPI Documentation: `http://localhost:8000/api/docs`
 
 ---
@@ -21,7 +23,7 @@ Create a new user account.
   "role": "manager"
 }
 ```
-- **Response `200`**:
+- **Response `201`**:
 ```json
 {
   "access_token": "eyJhbGciOi...",

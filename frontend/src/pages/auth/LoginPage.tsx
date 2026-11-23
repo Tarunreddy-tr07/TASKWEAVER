@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import axios from 'axios';
 import { Zap, Mail, Lock, Eye, EyeOff, AlertCircle, Sparkles, CheckCircle2 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { Button } from '../../components/ui/Button';
 import { Input } from '../../components/ui/Input';
+import { getApiErrorMessage } from '../../services/api';
 
 const schema = z.object({
   email: z.string().email('Invalid email address'),
@@ -33,20 +33,10 @@ export function LoginPage() {
       setAuthError('');
       await login(data.email, data.password);
     } catch (error: unknown) {
-      if (axios.isAxiosError(error)) {
-        const detail = error.response?.data?.detail;
-        if (typeof detail === 'string') {
-          setAuthError(detail === 'Invalid email or password'
-            ? 'Invalid email or password. Try demo@taskweaver.app / password123'
-            : detail);
-        } else if (!error.response) {
-          setAuthError('Unable to connect to the TaskWeaver API. Start the backend and try again.');
-        } else {
-          setAuthError('Sign-in failed. Please try again.');
-        }
-      } else {
-        setAuthError('Sign-in failed. Please try again.');
-      }
+      const message = getApiErrorMessage(error, 'Sign-in failed. Please try again.');
+      setAuthError(message === 'Invalid email or password'
+        ? 'Invalid email or password. Try demo@taskweaver.app / password123'
+        : message);
     }
   };
 

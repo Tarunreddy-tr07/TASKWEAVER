@@ -1,11 +1,54 @@
 import axios from 'axios';
 
-const API_BASE = '/api';
+const configuredApiUrl = import.meta.env.VITE_API_URL?.replace(/\/+$/, '');
+const API_BASE = configuredApiUrl
+  ? (configuredApiUrl.endsWith('/api') ? configuredApiUrl : `${configuredApiUrl}/api`)
+  : (import.meta.env.DEV ? '/api' : 'https://taskweaver-backend-2026.onrender.com/api');
 
 export const api = axios.create({
   baseURL: API_BASE,
   headers: { 'Content-Type': 'application/json' },
 });
+
+export function getApiErrorMessage(error: unknown, fallback: string): string {
+  if (!axios.isAxiosError(error)) {
+    return error instanceof Error ? error.message : fallback;
+  }
+
+  const responseData: unknown = error.response?.data;
+  if (typeof responseData === 'string' && responseData.trim()) {
+    return responseData;
+  }
+
+  if (responseData && typeof responseData === 'object') {
+    const data = responseData as Record<string, unknown>;
+    if (typeof data.detail === 'string' && data.detail.trim()) {
+      return data.detail;
+    }
+
+    if (Array.isArray(data.detail)) {
+      const messages = data.detail.flatMap((item) => {
+        if (!item || typeof item !== 'object') return [];
+        const validationError = item as { loc?: unknown; msg?: unknown };
+        if (typeof validationError.msg !== 'string') return [];
+        const location = Array.isArray(validationError.loc)
+          ? validationError.loc.filter((part): part is string => typeof part === 'string').slice(1).join('.')
+          : '';
+        return [location ? `${location}: ${validationError.msg}` : validationError.msg];
+      });
+      if (messages.length) return messages.join('; ');
+    }
+
+    if (typeof data.message === 'string' && data.message.trim()) {
+      return data.message;
+    }
+  }
+
+  if (!error.response) {
+    return 'Unable to reach the TaskWeaver API. Check your connection and try again.';
+  }
+  return error.message || fallback;
+}
 
 // Attach token
 api.interceptors.request.use((config) => {

@@ -9,6 +9,7 @@ import { useAuth } from '../../context/AuthContext';
 import { Button } from '../../components/ui/Button';
 import { Input } from '../../components/ui/Input';
 import { Select } from '../../components/ui/Input';
+import { getApiErrorMessage } from '../../services/api';
 
 const schema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -34,8 +35,8 @@ export function RegisterPage() {
     try {
       setAuthError('');
       await authRegister(data);
-    } catch (e: any) {
-      setAuthError(e?.response?.data?.detail || 'Registration failed. Please try again.');
+    } catch (error: unknown) {
+      setAuthError(getApiErrorMessage(error, 'Registration failed. Please try again.'));
     }
   };
 

@@ -72,10 +72,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const register = async (data: { name: string; email: string; password: string; role: string }) => {
     dispatch({ type: 'SET_LOADING', payload: true });
-    const res = await authApi.register(data);
-    const { access_token, user } = res.data;
-    localStorage.setItem('taskweaver_token', access_token);
-    dispatch({ type: 'SET_USER', payload: { user, token: access_token } });
+    try {
+      const res = await authApi.register(data);
+      const { access_token, user } = res.data;
+      localStorage.setItem('taskweaver_token', access_token);
+      dispatch({ type: 'SET_USER', payload: { user, token: access_token } });
+    } catch (error) {
+      dispatch({ type: 'SET_LOADING', payload: false });
+      throw error;
+    }
   };
 
   return (
